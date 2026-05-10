@@ -1,5 +1,5 @@
 {
-  "name": "mikser-core-render-markdown",
+  "name": "mikser-io-render-markdown",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/almero-digital-marketing/mikser-core-render-markdown.git"
+    "url": "git+https://github.com/almero-digital-marketing/mikser-io-render-markdown.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/almero-digital-marketing/mikser-core-render-markdown/issues"
+    "url": "https://github.com/almero-digital-marketing/mikser-io-render-markdown/issues"
   },
-  "homepage": "https://github.com/almero-digital-marketing/mikser-core-render-markdown#readme",
+  "homepage": "https://github.com/almero-digital-marketing/mikser-io-render-markdown#readme",
+  "peerDependencies": {
+    "mikser-io": "^6.0.0"
+  },
   "dependencies": {
     "markdown-it": "^13.0.1",
     "remove-markdown": "^0.5.0"
