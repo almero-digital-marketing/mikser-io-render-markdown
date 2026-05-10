@@ -1,6 +1,6 @@
 # mikser-io-render-markdown
 
-Markdown helpers for [Mikser](https://github.com/almero-digital-marketing/mikser-io). Adds two functions to the render runtime — `markdown` (render to HTML via [markdown-it](https://github.com/markdown-it/markdown-it)) and `removeMarkdown` (strip markdown via [remove-markdown](https://github.com/stiang/remove-markdown)).
+Markdown helpers for [Mikser](https://github.com/almero-digital-marketing/mikser-io). Adds two functions to the render runtime — `markdown` (render to HTML via [markdown-it](https://www.npmjs.com/package/markdown-it)) and `removeMarkdown` (strip markdown via [remove-markdown](https://www.npmjs.com/package/remove-markdown)).
 
 ## Install
 
