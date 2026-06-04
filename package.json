@@ -1,11 +1,10 @@
 {
   "name": "mikser-io-render-markdown",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/almero-digital-marketing/mikser-io-render-markdown.git"
@@ -17,7 +16,7 @@
   },
   "homepage": "https://github.com/almero-digital-marketing/mikser-io-render-markdown#readme",
   "peerDependencies": {
-    "mikser-io": "^6.0.0"
+    "mikser-io": "^7.0.0"
   },
   "dependencies": {
     "markdown-it": "^13.0.1",
