@@ -15,15 +15,17 @@ npm install mikser-io-render-markdown
 ```js
 // mikser.config.js
 import markdownItAnchor from 'markdown-it-anchor'
+import { renderMarkdown } from 'mikser-io-render-markdown'
 
 export default {
-  plugins: ['render-markdown'],
-  'render-markdown': {
-    options: { html: true, breaks: true, linkify: true },
-    plugins: [
-      { plugin: markdownItAnchor, options: { permalink: true } }
-    ]
-  }
+  plugins: [
+    renderMarkdown({
+      options: { html: true, breaks: true, linkify: true },
+      plugins: [
+        { plugin: markdownItAnchor, options: { permalink: true } }
+      ]
+    })
+  ]
 }
 ```
 
