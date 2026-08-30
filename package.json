@@ -1,7 +1,7 @@
 {
   "name": "mikser-io-render-markdown",
-  "version": "4.0.0",
-  "description": "",
+  "version": "4.0.1",
+  "description": "Markdown helpers for Mikser. Adds two functions to the render runtime — `markdown` (render to HTML via markdown-it) and `removeMarkdown` (strip markdown via remove-markdown).",
   "main": "index.js",
   "type": "module",
   "scripts": {},
