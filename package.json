@@ -1,10 +1,12 @@
 {
   "name": "mikser-io-render-markdown",
   "version": "5.0.0",
-  "description": "Markdown helpers for Mikser. Adds two functions to the render runtime \u2014 `markdown` (render to HTML via markdown-it) and `removeMarkdown` (strip markdown via remove-markdown).",
+  "description": "Markdown helpers for Mikser. Adds two functions to the render runtime — `markdown` (render to HTML via markdown-it) and `removeMarkdown` (strip markdown via remove-markdown).",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "test": "node --no-warnings --test --test-reporter=spec 'test/**/*.test.js'"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/almero-digital-marketing/mikser-io-render-markdown.git"
