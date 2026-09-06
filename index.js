@@ -21,5 +21,5 @@ export function load({ runtime, config }) {
 // entities into output directly. The loader treats `load` as
 // sufficient for renderer registration. ADR-0010.
 export function renderMarkdown(options = {}) {
-    return { name: options.name ?? 'markdown', options, load }
+    return { name: options.name ?? 'markdown', options, load, module: import.meta.url }
 }
